@@ -8,6 +8,6 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-["MP", "GZ", "IN", "SF", "MN", "TE", "NA", "CB", "NP"].each do |airport_code|
+["MP", "GZ", "IN", "SF", "MN", "TT", "NA", "CB", "NP"].each do |airport_code|
   Airport.find_or_create_by(code: airport_code)
 end
